@@ -1,0 +1,215 @@
+/* style.css */
+
+body {
+	background-color: ghostwhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Anton', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    border-bottom: 1px solid black;
+    background-color: red;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+.nav-item {
+    margin-left: 5rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+.nav-link{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: lightcyan;
+}
+
+.two {
+    background-color: lightsalmon;
+}
+
+.text {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 100px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+.text2 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+img {
+    float: right;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+.three {
+    background-color: lavenderblush;
+}
+
+.text3 {
+    margin-right: 30px;
+    text-align: right;
+    font-size: 100px;
+    font-family: 'Anton', sans-serif;
+    color: darkred;
+}
+
+.text4 {
+    margin-right: 30px;
+    text-align: right;
+    font-size: 30px;
+    color: black;
+}
+
+.text3 img {
+    float: left;
+    margin-top: 0;
+}
+
+.four {
+    background-color: lightsalmon;
+}
+
+.text5 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 100px;
+    font-family: 'Anton', sans-serif;
+    color: whitesmoke;
+}
+
+.text6 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    color: whitesmoke;
+}
+
+.text5 img {
+    float: right;
+    margin-right: 0;
+    margin-top: 0px;
+}
+
+button {
+    border: none;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    color: lightsalmon;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 30px 10px;
+    cursor: pointer;
+}
+
+.five {
+    background-color: lavenderblush;
+}
+
+.text7 {
+    margin-left: 30px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Anton', sans-serif;
+    color: lightsalmon;
+}
+
+.text8 {
+    margin-left: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color: lightsalmon;
+}
+
+#main-footer
+{
+    background-color: darkred;
+    padding: 2.5rem 0;
+} 
+
+#main-footer .top
+{
+    width: 100%;
+    color: white;
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+#main-footer .top > section span
+{
+    font-size: 30px;
+    margin-top: 1rem;
+}
+
+#main-footer .top h3
+{
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+#main-footer .top li {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    margin: 0.35rem 0;
+}
+#main-footer .top a
+{
+    color: whitesmoke;
+    text-decoration: underline;
+}
